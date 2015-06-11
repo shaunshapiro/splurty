@@ -39,6 +39,12 @@ font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book An
 	font-weight:bold;
 }
 
+.next-quote {
+	color:#f84342;
+	font-family: 'quicksanddash', sans-serif;
+	font-size:20px;
+}
+
 header {
 	border-top: 9px solid #222222;
 }
@@ -57,4 +63,12 @@ h2 {
 	font-family: 'fira_sansbook', sans-serif;
 	font-weight:bold;
 	font-size:48px;
+}
+
+.footer-blurb {
+	/* Traditional Garamond-based serif stack */
+font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align:right;
+  font-size:12px;
 }

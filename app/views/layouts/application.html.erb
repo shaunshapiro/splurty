@@ -19,7 +19,7 @@
             </div>
 		</div>
 		<div class="col-xs-4 slogan">
-			Splurting out unsolicited advice about everything since 2015"
+			Splurting out unsolicited advice about everything and nothing since 2015"
 		</div>
 		<div class="col-xs-5 links">
 			<%= link_to 'Contribute', '#' %>
@@ -29,7 +29,20 @@
 	<hr />
 	<br class="clear" />
 
-<%= yield %>
+	<div class="container">
+		<%= yield %>
+	</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="col-xs-6">
+			<%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+		</div>
+		<div class="col-xs-6 footer-blurb">
+			Proudly hacked in San Jose, CA by <a href="http://shaunshapiro.neocities.org">Shaun Shapiro</a><br />
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
